@@ -8,6 +8,7 @@ using namespace std;
 	    public:
 	    	string name;
 	    	string branch;
+//constructor//  
 	    student(int r,int m,string n,string b)
 	    {
 	    	roll_no=r;
@@ -15,6 +16,7 @@ using namespace std;
 	    	name=n;
 	    	branch=b;	
 		}
+//setters and getters//
 		void setmarks(int m)
 		{
 			marks=m;}
