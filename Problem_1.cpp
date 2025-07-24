@@ -16,7 +16,7 @@ using namespace std;
 	    	name=n;
 	    	branch=b;	
 		}
-//setters and getters
+//setters-to set the private property use public method and getters
 		void setmarks(int m)
 		{
 			marks=m;}
