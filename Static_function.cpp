@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
-
+/*Static Variable (count):
+                    Shared by all objects of the class.
+                    Retains its value across objects.
+                    Here, it counts how many objects are created.
+Static Function (showCount()):
+                    Belongs to the class, not to objects.
+                    Can be called using either class name (Counter::showCount()) or an object.
+                    Can access only static members of the class.*/
 class Student {
 public:
     string name;
@@ -25,3 +32,4 @@ int main() {
 
     return 0;
 }
+
